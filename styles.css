@@ -13,7 +13,7 @@
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{animation:none!important;transition-duration:.01ms!important}.reveal{opacity:1;transform:none}}
 
 /* v2.1.3 balanced contact layout */
-.contact-grid-balanced{position:relative;display:grid;grid-template-columns:minmax(0,.9fr) minmax(0,1.1fr);gap:96px;align-items:start;max-width:1240px}
+.contact-grid-balanced{position:relative;display:grid;grid-template-columns:minmax(0,.9fr) minmax(0,1.1fr);gap:96px;align-items:center;max-width:1240px}
 .contact-grid-balanced .contact-copy{text-align:left;max-width:560px}
 .contact-grid-balanced .contact-copy h2{font-size:clamp(3rem,5.5vw,5.6rem)}
 .contact-grid-balanced .contact-trust{justify-content:flex-start;display:grid;grid-template-columns:1fr 1fr;gap:10px 22px}
@@ -24,10 +24,3 @@
 .contact-divider-vertical span{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);display:grid;place-items:center;width:48px;height:48px;border:1px solid rgba(117,211,196,.55);border-radius:50%;background:var(--navy);color:#fff;font-size:.75rem;font-weight:900;letter-spacing:.12em}
 @media(max-width:980px){.contact-grid-balanced{grid-template-columns:1fr;gap:42px}.contact-grid-balanced .contact-copy{max-width:none}.contact-grid-balanced .contact-trust{grid-template-columns:1fr 1fr}.contact-divider-vertical{position:relative;left:auto;top:auto;bottom:auto;width:100%;height:1px;margin:8px 0;background:rgba(255,255,255,.22)}.contact-divider-vertical span{top:50%;left:50%}.contact-grid-balanced .estimate-heading{text-align:center}}
 @media(max-width:640px){.contact-grid-balanced .contact-trust{grid-template-columns:1fr}.contact-grid-balanced .contact-copy h2{font-size:clamp(3rem,14vw,4.5rem)}}
-/* Raise the left contact content to align with the estimate heading */
-@media (min-width: 981px) {
-  .contact-grid-balanced .contact-copy {
-    position: relative;
-    top: -70px;
-  }
-}
