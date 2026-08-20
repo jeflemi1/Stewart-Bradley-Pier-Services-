@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://www.stewartbradleypierservices.com/sitemap.xml
