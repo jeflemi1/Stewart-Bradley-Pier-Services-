@@ -69,3 +69,10 @@ a.service-card:focus-visible{outline:2px solid var(--teal);outline-offset:-2px;z
 .page-copy .btn-secondary:hover{background:rgba(58,176,158,.12);color:var(--navy)}
 @media(max-width:980px){.page-copy-grid{grid-template-columns:1fr;gap:36px}.hero.page-hero{height:48vh;min-height:380px}.page-photo img{height:auto;min-height:280px;max-height:none}}
 @media(max-width:640px){.page-copy{padding:64px 0 10px}.hero.page-hero h1{font-size:clamp(2.15rem,11vw,3.4rem)}}
+
+/* Sister-brand cross-link */
+.companies-link{text-decoration:underline;text-underline-offset:3px;font-weight:700}
+.standard-copy .companies-link{color:#76d5c6}
+.standard-copy .companies-link:hover{color:#fff}
+.site-footer .companies-link{color:#75d3c4}
+.site-footer .companies-link:hover{color:#fff}
