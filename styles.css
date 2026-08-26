@@ -76,3 +76,10 @@ a.service-card:focus-visible{outline:2px solid var(--teal);outline-offset:-2px;z
 .standard-copy .companies-link:hover{color:#fff}
 .site-footer .companies-link{color:#75d3c4}
 .site-footer .companies-link:hover{color:#fff}
+
+.footer-brand p{margin:8px 0 0}
+.footer-brand p:first-of-type{margin-top:12px;color:#fff;font:500 1rem Georgia,serif}
+
+.breadcrumbs{margin:0 0 28px;color:var(--muted);font-size:.82rem;font-weight:700;letter-spacing:.02em}
+.breadcrumbs a{color:var(--teal-dark);text-decoration:none;font-weight:800}
+.breadcrumbs a:hover{color:var(--navy);text-decoration:underline;text-underline-offset:3px}
