@@ -61,13 +61,14 @@ a.service-card:focus-visible{outline:2px solid var(--teal);outline-offset:-2px;z
 .page-copy a:not(.btn):hover{color:var(--navy)}
 .page-photo{margin:8px 0 0}
 .page-photo img{width:100%;min-height:360px;height:52vh;max-height:560px;object-fit:cover;box-shadow:var(--shadow)}
+.page-photo.page-photo-full img{height:auto;min-height:0;max-height:none;object-fit:contain}
 .page-photo figcaption{margin-top:12px;color:var(--muted);font-size:.76rem;font-weight:800;letter-spacing:.12em;text-transform:uppercase}
 .related-services{margin:48px 0 0;padding:28px 0 0;border-top:1px solid var(--line);color:var(--muted);max-width:720px}
 .related-services a{color:var(--teal-dark);font-weight:700;text-decoration:underline;text-underline-offset:3px}
 .page-cta-row{display:flex;flex-wrap:wrap;gap:14px;margin-top:28px}
 .page-copy .btn-secondary{color:var(--navy);border-color:var(--teal);background:transparent}
 .page-copy .btn-secondary:hover{background:rgba(58,176,158,.12);color:var(--navy)}
-@media(max-width:980px){.page-copy-grid{grid-template-columns:1fr;gap:36px}.hero.page-hero{height:48vh;min-height:380px}.page-photo img{height:auto;min-height:280px;max-height:none}}
+@media(max-width:980px){.page-copy-grid{grid-template-columns:1fr;gap:36px}.hero.page-hero{height:48vh;min-height:380px}.page-photo img{height:auto;min-height:280px;max-height:none}.page-photo.page-photo-full img{height:auto;min-height:0;max-height:none;object-fit:contain}}
 @media(max-width:640px){.page-copy{padding:64px 0 10px}.hero.page-hero h1{font-size:clamp(2.15rem,11vw,3.4rem)}}
 
 /* Sister-brand cross-link */
