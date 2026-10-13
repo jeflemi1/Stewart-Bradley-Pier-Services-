@@ -86,6 +86,11 @@ a.service-card:focus-visible{outline:2px solid var(--teal);outline-offset:-2px;z
 .breadcrumbs a{color:var(--teal-dark);text-decoration:none;font-weight:800}
 .breadcrumbs a:hover{color:var(--navy);text-decoration:underline;text-underline-offset:3px}
 
+.founder-signoff{margin:28px 0 0;text-align:left}
+.founder-signoff picture,.founder-signoff img{display:block;width:220px;height:auto}
+.page-copy .founder-signoff p{margin:6px 0 0;max-width:none;color:var(--muted);font-size:.84rem;font-weight:500;letter-spacing:.01em}
+@media(max-width:640px){.founder-signoff picture,.founder-signoff img{width:180px}}
+
 /* Homepage proposed-edits: 7 service cards, 5 process steps, restored local service */
 .hero-lead{max-width:780px}
 .service-include-heading{margin-top:72px}
