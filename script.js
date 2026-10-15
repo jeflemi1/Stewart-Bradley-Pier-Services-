@@ -4,9 +4,7 @@ const header=document.querySelector('.site-header');const toggle=document.queryS
 (function(){
   var form=document.getElementById('checklist-form');
   if(!form) return;
-  var fallback=document.getElementById('checklist-fallback');
   var placeholder=SIGNUP_ENDPOINT==='REPLACE_WITH_APPS_SCRIPT_EXEC_URL';
-  if(!placeholder&&fallback) fallback.hidden=true;
   var error=document.getElementById('checklist-error');
   form.addEventListener('submit',function(event){
     event.preventDefault();

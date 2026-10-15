@@ -34,9 +34,9 @@
 .checklist-check{display:flex;align-items:flex-start;gap:12px;margin:2px 0 18px;color:var(--ink);font-size:.95rem;line-height:1.45}
 .checklist-check input{width:1.15rem;height:1.15rem;margin:0.28rem 0 0;padding:0;flex:0 0 auto;accent-color:var(--teal-dark)}
 .checklist-form .checklist-check span{display:block;margin:0;color:var(--ink);font-size:.95rem;font-weight:500;line-height:1.45;letter-spacing:0;text-transform:none}
-.checklist-privacy,.checklist-fallback{margin:12px 0 0;color:#718087;font-size:.8rem}
-.checklist-fallback a,.checklist-thanks a{color:var(--teal-dark);font-weight:800;text-decoration:underline;text-underline-offset:3px}
-.checklist-fallback a:hover,.checklist-thanks a:hover{color:var(--navy)}
+.checklist-privacy,.checklist-noscript{margin:12px 0 0;color:#718087;font-size:.8rem}
+.checklist-noscript a,.checklist-thanks a{color:var(--teal-dark);font-weight:800;text-decoration:underline;text-underline-offset:3px}
+.checklist-noscript a:hover,.checklist-thanks a:hover{color:var(--navy)}
 .checklist-error{margin:0 0 12px;color:#8c2f2f;font-size:.85rem;font-weight:700}
 .checklist-thanks{margin:0}
 .checklist-thanks p{margin:0 0 12px;color:var(--muted);font-size:1.02rem}
