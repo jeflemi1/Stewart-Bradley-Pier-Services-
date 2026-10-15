@@ -24,6 +24,25 @@
 .contact-divider-vertical span{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);display:grid;place-items:center;width:48px;height:48px;border:1px solid rgba(117,211,196,.55);border-radius:50%;background:var(--navy);color:#fff;font-size:.75rem;font-weight:900;letter-spacing:.12em}
 @media(max-width:980px){.contact-grid-balanced{grid-template-columns:1fr;gap:42px}.contact-grid-balanced .contact-copy{max-width:none}.contact-grid-balanced .contact-trust{grid-template-columns:1fr 1fr}.contact-divider-vertical{position:relative;left:auto;top:auto;bottom:auto;width:100%;height:1px;margin:8px 0;background:rgba(255,255,255,.22)}.contact-divider-vertical span{top:50%;left:50%}.contact-grid-balanced .estimate-heading{text-align:center}}
 @media(max-width:640px){.contact-grid-balanced .contact-trust{grid-template-columns:1fr}.contact-grid-balanced .contact-copy h2{font-size:clamp(3rem,14vw,4.5rem)}}
+/* Pier Care Checklist signup */
+.checklist-signup{grid-column:1 / -1;margin-top:36px}
+.checklist-panel{display:grid;grid-template-columns:minmax(0,.8fr) minmax(0,1.2fr);gap:28px 56px;align-items:start;padding:36px 40px;background:#fff;color:var(--ink);box-shadow:var(--shadow)}
+.checklist-panel h3{margin:0;color:var(--navy);font-size:clamp(1.85rem,3vw,2.7rem);line-height:1.12}
+.checklist-form label{display:block;margin-bottom:16px}
+.checklist-form label>span{display:block;margin-bottom:7px;color:#3d5058;font-size:.77rem;font-weight:800}
+.checklist-optional{font-weight:650;color:var(--muted);text-transform:none;letter-spacing:0}
+.checklist-check{display:flex;align-items:flex-start;gap:12px;margin:2px 0 18px;color:var(--ink);font-size:.95rem;line-height:1.45}
+.checklist-check input{width:1.15rem;height:1.15rem;margin:0.28rem 0 0;padding:0;flex:0 0 auto;accent-color:var(--teal-dark)}
+.checklist-form .checklist-check span{display:block;margin:0;color:var(--ink);font-size:.95rem;font-weight:500;line-height:1.45;letter-spacing:0;text-transform:none}
+.checklist-privacy,.checklist-noscript{margin:12px 0 0;color:#718087;font-size:.8rem}
+.checklist-noscript a,.checklist-thanks a{color:var(--teal-dark);font-weight:800;text-decoration:underline;text-underline-offset:3px}
+.checklist-noscript a:hover,.checklist-thanks a:hover{color:var(--navy)}
+.checklist-error{margin:0 0 12px;color:#8c2f2f;font-size:.85rem;font-weight:700}
+.checklist-thanks{margin:0}
+.checklist-thanks p{margin:0 0 12px;color:var(--muted);font-size:1.02rem}
+.checklist-thanks a{font-size:1rem}
+@media(max-width:980px){.checklist-panel{grid-template-columns:1fr;gap:22px;padding:28px 22px}}
+@media(max-width:640px){.checklist-signup{margin-top:28px}.checklist-panel{padding:24px 18px}.checklist-form .form-submit{width:100%}}
 /* Raise the left contact content to align with the estimate heading */
 @media (min-width: 981px) {
   .contact-grid-balanced .contact-copy {
