@@ -110,6 +110,10 @@ a.service-card:focus-visible{outline:2px solid var(--teal);outline-offset:-2px;z
 .page-photo.founder-headshot img{width:100%;height:auto;min-height:0;max-height:none;aspect-ratio:1/1;object-fit:contain;box-shadow:var(--shadow)}
 @media(max-width:980px){.founder-bio .founder-headshot{order:-1}}
 @media(max-width:640px){.founder-headshot{width:min(100%,240px)}}
+.signoff-contact{margin:4px 0 0;font-style:normal}
+.signoff-contact p{display:flex;flex-wrap:wrap;gap:4px 10px;align-items:baseline;margin:0 0 4px}
+.signoff-contact span{color:var(--teal-dark);font-size:.72rem;font-weight:800;letter-spacing:.14em;text-transform:uppercase}
+.signoff-contact a{overflow-wrap:anywhere}
 
 /* Homepage proposed-edits: 7 service cards, 5 process steps, restored local service */
 .hero-lead{max-width:780px}
